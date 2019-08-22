@@ -6,9 +6,9 @@ class Shoe
     @brand = brand
   end
   
-  def cobble 
+  def cobble
     puts "Your shoe is as good as new!"
-    condition = "new"
+   @condition = "new"
   end
   
 end
